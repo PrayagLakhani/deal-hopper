@@ -1,0 +1,16 @@
+# Never commit real credentials
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+*.egg-info/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Power BI temp/lock files (not the .pbix itself — that's tracked)
+*.pbix.lock
+~$*.pbix

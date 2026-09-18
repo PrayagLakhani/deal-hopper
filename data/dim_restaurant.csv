@@ -1,0 +1,350 @@
+restaurant_id,restaurant_name,city_id,cuisine_type,restaurant_type,onboarding_date,commission_rate,avg_rating
+1,Flavour Corner,1,Multi-cuisine,Standalone Restaurant,2025-05-16,0.195,3.9
+2,Flavour Junction,1,Rolls & Wraps,Cloud Kitchen,2025-07-02,0.186,3.5
+3,Urban Deli,1,Burgers & American,Standalone Restaurant,2021-08-23,0.212,3.9
+4,Grand Bites,1,Chinese,Cloud Kitchen,2024-05-10,0.239,3.7
+5,The Daily Corner,1,Chinese,Cloud Kitchen,2023-03-10,0.187,3.7
+6,Grand Deli,1,Biryani & Mughlai,Cloud Kitchen,2024-12-07,0.241,4.3
+7,Spice Hub,1,Chinese,Standalone Restaurant,2025-03-24,0.216,4.0
+8,Corner House,1,Burgers & American,Standalone Restaurant,2022-11-19,0.195,3.1
+9,Flavour Bites,1,Biryani & Mughlai,Cloud Kitchen,2024-05-18,0.185,3.5
+10,Flavour Diner,1,Pizza & Italian,Cloud Kitchen,2021-06-24,0.208,3.3
+11,Corner Kitchen,1,Bakery & Desserts,Standalone Restaurant,2022-04-24,0.227,4.1
+12,Local Corner,1,North Indian,Standalone Restaurant,2025-01-11,0.186,4.3
+13,Hungry Point,1,Momos & Tibetan,Cloud Kitchen,2023-01-08,0.213,3.8
+14,Grand Point,1,Chinese,Cloud Kitchen,2022-11-15,0.269,3.7
+15,Royal Kitchen,1,Pizza & Italian,Standalone Restaurant,2023-09-14,0.206,3.9
+16,Fresh Deli,1,Cafe & Beverages,Standalone Restaurant,2024-12-13,0.17,4.5
+17,Wok & Roll Co.,1,North Indian,Chain Outlet,2023-09-06,0.151,3.8
+18,Corner Hub,1,Multi-cuisine,Standalone Restaurant,2022-04-28,0.158,4.0
+19,Grand House,1,Burgers & American,Cloud Kitchen,2022-10-02,0.261,4.3
+20,Local Diner,1,Biryani & Mughlai,Standalone Restaurant,2024-08-22,0.186,4.0
+21,Spice Route Express,1,North Indian,Chain Outlet,2024-06-18,0.146,4.0
+22,Local Kart,1,Rolls & Wraps,Cloud Kitchen,2021-10-03,0.202,4.0
+23,Local Express,1,Rolls & Wraps,Cloud Kitchen,2025-07-12,0.232,3.5
+24,Wok & Roll Co.,1,Biryani & Mughlai,Chain Outlet,2025-01-31,0.162,4.5
+25,Spice Point,1,Pizza & Italian,Standalone Restaurant,2023-11-29,0.177,3.9
+26,Spice Junction,1,North Indian,Cloud Kitchen,2025-06-08,0.194,4.0
+27,The Daily Hub,1,Burgers & American,Standalone Restaurant,2024-11-21,0.226,4.2
+28,Urban Express,1,Biryani & Mughlai,Cloud Kitchen,2023-07-29,0.234,3.5
+29,Hungry Deli,1,North Indian,Cloud Kitchen,2021-05-25,0.199,3.9
+30,Fresh Junction,1,Chinese,Standalone Restaurant,2025-02-01,0.173,3.7
+31,Hungry Kitchen,1,Biryani & Mughlai,Standalone Restaurant,2025-06-10,0.202,4.1
+32,The Daily Diner,1,South Indian,Standalone Restaurant,2025-05-12,0.173,4.3
+33,Tasty Deli,1,Bakery & Desserts,Cloud Kitchen,2023-04-19,0.204,4.0
+34,Royal Junction,1,Chinese,Cloud Kitchen,2021-12-28,0.269,4.2
+35,Tasty Studio,1,Rolls & Wraps,Standalone Restaurant,2025-05-26,0.166,4.0
+36,Royal Kart,1,Bakery & Desserts,Cloud Kitchen,2023-05-22,0.196,4.2
+37,Royal Kart,1,Burgers & American,Standalone Restaurant,2021-04-29,0.152,3.4
+38,The Daily Junction,1,Rolls & Wraps,Cloud Kitchen,2021-12-25,0.211,3.9
+39,Royal Express,1,Multi-cuisine,Standalone Restaurant,2024-09-18,0.175,4.0
+40,Local Studio,1,Rolls & Wraps,Standalone Restaurant,2021-07-03,0.185,3.9
+41,Golden Deli,1,North Indian,Standalone Restaurant,2023-02-13,0.178,3.9
+42,Flame & Fork,2,Pizza & Italian,Chain Outlet,2020-09-11,0.165,3.8
+43,Flame & Fork,2,North Indian,Chain Outlet,2020-12-02,0.154,3.5
+44,Urban Kart,2,Chinese,Cloud Kitchen,2025-03-29,0.264,3.7
+45,Urban Tadka,2,Rolls & Wraps,Chain Outlet,2024-01-07,0.16,3.4
+46,Spice Point,2,Cafe & Beverages,Cloud Kitchen,2024-04-21,0.25,3.6
+47,The Daily Diner,2,Cafe & Beverages,Cloud Kitchen,2025-08-08,0.206,3.6
+48,Corner Hub,2,Biryani & Mughlai,Cloud Kitchen,2021-04-21,0.187,4.0
+49,The Daily Deli,2,Chinese,Cloud Kitchen,2024-03-13,0.189,3.7
+50,Fresh Diner,2,Burgers & American,Standalone Restaurant,2024-03-01,0.175,3.9
+51,Local Deli,2,Burgers & American,Cloud Kitchen,2022-02-07,0.232,3.6
+52,Zaika Hub,2,Biryani & Mughlai,Standalone Restaurant,2024-03-09,0.204,4.2
+53,Corner House,2,Biryani & Mughlai,Standalone Restaurant,2022-03-02,0.221,3.9
+54,The Daily Diner,2,Cafe & Beverages,Standalone Restaurant,2022-06-15,0.168,3.7
+55,Grand Corner,2,Bakery & Desserts,Cloud Kitchen,2024-12-25,0.197,3.7
+56,Flavour Corner,2,Bakery & Desserts,Standalone Restaurant,2022-11-18,0.245,3.6
+57,Zaika Bites,2,Pizza & Italian,Standalone Restaurant,2023-06-09,0.207,3.6
+58,Golden Deli,2,Biryani & Mughlai,Cloud Kitchen,2022-12-03,0.19,3.8
+59,Tasty Kitchen,2,Momos & Tibetan,Standalone Restaurant,2023-12-04,0.193,4.6
+60,Tasty Diner,2,South Indian,Standalone Restaurant,2022-07-06,0.243,3.3
+61,Golden Hub,2,Rolls & Wraps,Standalone Restaurant,2023-04-10,0.157,3.8
+62,Tasty Point,2,Multi-cuisine,Standalone Restaurant,2022-04-25,0.207,3.9
+63,Local Corner,2,Chinese,Cloud Kitchen,2023-12-18,0.219,4.0
+64,Corner Diner,2,Rolls & Wraps,Cloud Kitchen,2023-01-30,0.182,3.7
+65,The Daily Hub,2,Bakery & Desserts,Standalone Restaurant,2022-09-08,0.22,4.3
+66,Corner Kart,2,Pizza & Italian,Standalone Restaurant,2022-04-11,0.168,4.0
+67,Spice Junction,2,Chinese,Standalone Restaurant,2024-09-23,0.187,3.6
+68,Wok & Roll Co.,2,Pizza & Italian,Chain Outlet,2024-03-28,0.161,4.4
+69,Hungry Kitchen,2,Chinese,Standalone Restaurant,2025-08-22,0.201,3.7
+70,Wok & Roll Co.,2,North Indian,Chain Outlet,2021-07-05,0.178,4.3
+71,The Daily Deli,2,Bakery & Desserts,Standalone Restaurant,2022-05-23,0.218,3.4
+72,Royal Deli,2,Pizza & Italian,Cloud Kitchen,2023-04-19,0.235,2.6
+73,The Daily Kart,2,Pizza & Italian,Cloud Kitchen,2023-05-03,0.189,3.6
+74,Royal Bites,2,Pizza & Italian,Standalone Restaurant,2022-06-07,0.185,3.9
+75,Fresh Diner,2,Bakery & Desserts,Cloud Kitchen,2021-10-09,0.267,3.8
+76,Urban Studio,2,Bakery & Desserts,Cloud Kitchen,2022-02-28,0.195,4.4
+77,Royal Point,2,Burgers & American,Standalone Restaurant,2024-08-02,0.236,3.8
+78,Wok & Roll Co.,2,Biryani & Mughlai,Chain Outlet,2023-06-03,0.162,4.1
+79,The Daily Studio,2,Burgers & American,Standalone Restaurant,2022-05-19,0.241,3.9
+80,Tasty Deli,2,Cafe & Beverages,Cloud Kitchen,2021-09-03,0.192,3.5
+81,Royal Deli,2,North Indian,Standalone Restaurant,2020-12-11,0.19,3.6
+82,Zaika Diner,2,Pizza & Italian,Standalone Restaurant,2024-10-01,0.248,3.9
+83,Zaika Corner,2,Pizza & Italian,Standalone Restaurant,2020-12-24,0.242,4.2
+84,Spice Kitchen,2,Bakery & Desserts,Cloud Kitchen,2024-04-01,0.25,3.5
+85,Hungry Studio,2,Momos & Tibetan,Cloud Kitchen,2023-04-06,0.276,3.8
+86,Flavour Diner,2,Pizza & Italian,Cloud Kitchen,2024-03-07,0.245,3.7
+87,Grand Deli,2,South Indian,Cloud Kitchen,2022-10-21,0.277,3.1
+88,Corner Express,2,Chinese,Standalone Restaurant,2024-11-08,0.192,4.0
+89,Urban Diner,2,Bakery & Desserts,Standalone Restaurant,2022-09-06,0.238,3.4
+90,Spice House,2,Burgers & American,Standalone Restaurant,2021-01-14,0.249,4.0
+91,Hungry Express,2,Cafe & Beverages,Cloud Kitchen,2022-09-09,0.264,3.9
+92,Golden Bites,2,North Indian,Standalone Restaurant,2021-11-04,0.219,4.4
+93,Curry Culture,3,Burgers & American,Chain Outlet,2024-12-20,0.155,4.3
+94,Hungry Kitchen,3,Pizza & Italian,Cloud Kitchen,2021-02-09,0.207,4.2
+95,Spice Point,3,North Indian,Cloud Kitchen,2021-01-23,0.216,4.0
+96,Royal Studio,3,Burgers & American,Standalone Restaurant,2024-08-11,0.235,3.6
+97,Local Kart,3,Pizza & Italian,Standalone Restaurant,2022-01-25,0.163,4.5
+98,Grand House,3,Burgers & American,Cloud Kitchen,2023-03-06,0.241,4.3
+99,Royal House,3,Multi-cuisine,Standalone Restaurant,2024-08-13,0.205,4.2
+100,Royal Kitchen,3,Cafe & Beverages,Cloud Kitchen,2021-05-02,0.26,3.9
+101,Fresh Kitchen,3,North Indian,Standalone Restaurant,2025-03-01,0.157,4.0
+102,Local Studio,3,Multi-cuisine,Cloud Kitchen,2021-04-10,0.193,3.7
+103,Zaika Point,3,Multi-cuisine,Cloud Kitchen,2023-06-08,0.198,4.2
+104,Corner Diner,3,South Indian,Standalone Restaurant,2023-11-30,0.154,3.8
+105,Corner Express,3,Cafe & Beverages,Cloud Kitchen,2024-11-18,0.235,3.0
+106,Flame & Fork,3,North Indian,Chain Outlet,2023-12-22,0.126,4.1
+107,Flavour Studio,3,Burgers & American,Standalone Restaurant,2023-03-31,0.188,4.0
+108,Flame & Fork,3,Rolls & Wraps,Chain Outlet,2022-05-30,0.157,3.6
+109,Urban Diner,3,Rolls & Wraps,Cloud Kitchen,2022-05-30,0.195,4.1
+110,Grand House,3,Multi-cuisine,Standalone Restaurant,2025-02-27,0.185,3.6
+111,The Daily Corner,3,Bakery & Desserts,Cloud Kitchen,2021-01-17,0.182,3.5
+112,Spice Hub,3,Bakery & Desserts,Cloud Kitchen,2021-01-14,0.248,3.6
+113,Tasty Express,3,South Indian,Standalone Restaurant,2021-01-23,0.206,4.5
+114,Zaika Hub,3,Pizza & Italian,Cloud Kitchen,2024-07-18,0.241,4.7
+115,Corner Express,3,Multi-cuisine,Cloud Kitchen,2024-10-21,0.204,3.6
+116,The Daily Kart,3,Rolls & Wraps,Cloud Kitchen,2023-01-18,0.185,3.7
+117,Tasty Point,3,Pizza & Italian,Cloud Kitchen,2024-05-20,0.27,4.2
+118,Spice Point,3,Burgers & American,Cloud Kitchen,2023-07-25,0.262,4.0
+119,Flavour Diner,3,Multi-cuisine,Standalone Restaurant,2024-12-18,0.234,3.5
+120,Fresh Express,3,North Indian,Standalone Restaurant,2021-05-08,0.243,4.2
+121,Spice Express,3,Chinese,Cloud Kitchen,2022-11-10,0.225,4.7
+122,Urban Hub,3,Rolls & Wraps,Cloud Kitchen,2021-11-06,0.194,4.7
+123,Local Point,3,Bakery & Desserts,Cloud Kitchen,2025-04-12,0.221,4.1
+124,Golden Point,3,South Indian,Standalone Restaurant,2025-01-11,0.244,3.8
+125,Spice Point,3,Chinese,Cloud Kitchen,2024-08-25,0.237,3.9
+126,Golden Corner,3,Chinese,Standalone Restaurant,2020-12-25,0.174,3.9
+127,Hungry Diner,3,Biryani & Mughlai,Standalone Restaurant,2021-03-19,0.218,4.6
+128,Spice Route Express,3,Burgers & American,Chain Outlet,2023-11-02,0.146,3.7
+129,Spice Bites,3,North Indian,Standalone Restaurant,2023-03-21,0.241,3.5
+130,Curry Culture,3,Momos & Tibetan,Chain Outlet,2022-06-27,0.128,4.0
+131,Tasty Bites,3,North Indian,Standalone Restaurant,2023-07-01,0.229,3.7
+132,Tasty Express,4,North Indian,Standalone Restaurant,2024-07-27,0.226,3.6
+133,Flame & Fork,4,North Indian,Chain Outlet,2024-10-10,0.127,4.4
+134,Grand House,4,Biryani & Mughlai,Cloud Kitchen,2019-09-29,0.24,3.7
+135,Local Studio,4,Cafe & Beverages,Standalone Restaurant,2025-04-12,0.233,3.9
+136,Fresh Studio,4,Momos & Tibetan,Cloud Kitchen,2025-06-23,0.194,4.0
+137,Flavour Deli,4,North Indian,Cloud Kitchen,2020-06-16,0.272,4.4
+138,Zaika Junction,4,Bakery & Desserts,Cloud Kitchen,2023-05-27,0.192,4.2
+139,Tasty Express,4,Cafe & Beverages,Cloud Kitchen,2024-07-24,0.211,4.1
+140,Hungry Diner,4,Pizza & Italian,Cloud Kitchen,2019-10-21,0.24,3.4
+141,Hungry Diner,4,Biryani & Mughlai,Cloud Kitchen,2025-04-18,0.272,3.3
+142,Curry Culture,4,Multi-cuisine,Chain Outlet,2021-11-18,0.175,2.8
+143,The Daily Hub,4,Bakery & Desserts,Cloud Kitchen,2021-06-05,0.183,4.3
+144,Grand House,4,Cafe & Beverages,Cloud Kitchen,2023-07-28,0.232,3.6
+145,Spice Route Express,4,Bakery & Desserts,Chain Outlet,2019-11-21,0.145,4.9
+146,Royal Studio,4,Momos & Tibetan,Cloud Kitchen,2022-02-02,0.27,3.9
+147,Corner Point,4,North Indian,Cloud Kitchen,2025-02-20,0.209,4.0
+148,Urban Express,4,North Indian,Standalone Restaurant,2022-01-28,0.166,4.6
+149,The Daily Junction,4,Momos & Tibetan,Cloud Kitchen,2021-09-03,0.207,3.9
+150,Grand House,4,Momos & Tibetan,Standalone Restaurant,2021-10-06,0.205,4.3
+151,Local Point,4,Momos & Tibetan,Cloud Kitchen,2023-01-04,0.19,4.2
+152,Craveable Kitchens,4,Multi-cuisine,Chain Outlet,2020-09-20,0.177,3.5
+153,Urban Bites,4,Momos & Tibetan,Cloud Kitchen,2020-05-21,0.189,4.0
+154,Spice Corner,4,South Indian,Standalone Restaurant,2024-10-17,0.184,3.4
+155,The Daily Bites,4,Chinese,Standalone Restaurant,2020-07-26,0.233,4.4
+156,Grand Junction,4,Pizza & Italian,Cloud Kitchen,2023-08-28,0.277,3.6
+157,Fresh Point,4,North Indian,Standalone Restaurant,2025-04-02,0.239,3.8
+158,Flavour House,4,Bakery & Desserts,Cloud Kitchen,2020-02-18,0.22,4.4
+159,Local Hub,4,Burgers & American,Cloud Kitchen,2020-09-10,0.27,4.3
+160,Fresh Hub,4,Pizza & Italian,Standalone Restaurant,2019-08-06,0.177,4.4
+161,Zaika Diner,4,Bakery & Desserts,Standalone Restaurant,2021-02-03,0.171,4.5
+162,Fresh Kitchen,4,Momos & Tibetan,Standalone Restaurant,2021-05-28,0.202,4.5
+163,Local Kitchen,4,Burgers & American,Cloud Kitchen,2021-05-19,0.24,3.7
+164,Spice Studio,4,Biryani & Mughlai,Cloud Kitchen,2022-11-28,0.275,3.3
+165,Zaika Express,4,Rolls & Wraps,Cloud Kitchen,2025-04-12,0.228,4.0
+166,Local Kitchen,4,Biryani & Mughlai,Cloud Kitchen,2020-06-25,0.195,3.2
+167,Golden Kart,4,South Indian,Standalone Restaurant,2022-05-02,0.191,4.2
+168,Royal House,4,Chinese,Standalone Restaurant,2022-11-30,0.15,4.5
+169,Urban Tadka,4,Burgers & American,Chain Outlet,2023-12-19,0.125,3.9
+170,Royal Point,4,Rolls & Wraps,Cloud Kitchen,2024-04-11,0.252,4.1
+171,Spice Route Express,5,South Indian,Chain Outlet,2023-12-01,0.177,4.2
+172,The Daily Kart,5,Pizza & Italian,Cloud Kitchen,2024-12-29,0.272,4.0
+173,The Combo Company,5,Momos & Tibetan,Chain Outlet,2024-03-15,0.165,3.9
+174,Spice Point,5,Momos & Tibetan,Standalone Restaurant,2025-04-20,0.206,3.6
+175,Golden Studio,5,Chinese,Standalone Restaurant,2025-02-20,0.194,4.5
+176,Corner Express,5,Biryani & Mughlai,Standalone Restaurant,2025-02-05,0.224,3.1
+177,Grand House,5,Cafe & Beverages,Standalone Restaurant,2023-06-06,0.196,3.7
+178,Bite Society,5,Multi-cuisine,Chain Outlet,2024-10-21,0.141,3.4
+179,Grand Kart,5,Pizza & Italian,Standalone Restaurant,2023-04-28,0.237,3.2
+180,Royal Point,5,North Indian,Standalone Restaurant,2023-06-19,0.222,3.2
+181,Golden Kart,5,North Indian,Standalone Restaurant,2023-09-02,0.188,3.5
+182,Curry Culture,5,Pizza & Italian,Chain Outlet,2024-07-09,0.179,4.2
+183,Curry Culture,5,Rolls & Wraps,Chain Outlet,2025-07-20,0.157,4.4
+184,Local House,5,Cafe & Beverages,Standalone Restaurant,2024-11-01,0.172,4.5
+185,Flavour Express,5,Chinese,Cloud Kitchen,2022-09-22,0.277,4.5
+186,Royal Junction,5,Rolls & Wraps,Standalone Restaurant,2024-09-18,0.172,3.7
+187,Tasty Corner,5,Bakery & Desserts,Standalone Restaurant,2025-03-08,0.177,4.1
+188,Urban Point,5,Multi-cuisine,Standalone Restaurant,2025-03-31,0.151,4.3
+189,Urban Express,5,Cafe & Beverages,Standalone Restaurant,2022-09-05,0.172,3.7
+190,The Combo Company,5,Rolls & Wraps,Chain Outlet,2023-03-11,0.151,4.0
+191,Craveable Kitchens,5,Chinese,Chain Outlet,2025-06-28,0.161,3.2
+192,Craveable Kitchens,5,Chinese,Chain Outlet,2022-10-30,0.171,4.1
+193,The Combo Company,5,Bakery & Desserts,Chain Outlet,2023-07-28,0.134,3.5
+194,Spice Route Express,5,Cafe & Beverages,Chain Outlet,2025-06-19,0.17,4.1
+195,Golden Bites,5,Multi-cuisine,Cloud Kitchen,2022-10-20,0.262,3.9
+196,Spice Kart,6,Multi-cuisine,Cloud Kitchen,2022-12-09,0.192,4.4
+197,Corner Junction,6,Rolls & Wraps,Cloud Kitchen,2025-08-26,0.191,4.0
+198,The Combo Company,6,Pizza & Italian,Chain Outlet,2023-08-27,0.176,4.5
+199,Tasty Studio,6,South Indian,Standalone Restaurant,2023-06-02,0.221,4.0
+200,Flavour Studio,6,Cafe & Beverages,Cloud Kitchen,2023-06-20,0.267,3.6
+201,Curry Culture,6,Biryani & Mughlai,Chain Outlet,2023-07-07,0.156,3.6
+202,Local Diner,6,Chinese,Standalone Restaurant,2025-08-01,0.195,3.8
+203,Spice Junction,6,Biryani & Mughlai,Cloud Kitchen,2023-12-24,0.265,4.4
+204,Tasty Express,6,South Indian,Cloud Kitchen,2024-02-24,0.207,3.9
+205,Wok & Roll Co.,6,Rolls & Wraps,Chain Outlet,2025-08-07,0.177,4.6
+206,Golden Junction,6,Bakery & Desserts,Cloud Kitchen,2024-04-12,0.221,3.5
+207,The Combo Company,6,South Indian,Chain Outlet,2023-05-04,0.122,3.4
+208,Craveable Kitchens,6,Multi-cuisine,Chain Outlet,2023-01-21,0.131,4.5
+209,Craveable Kitchens,6,Pizza & Italian,Chain Outlet,2024-07-05,0.147,3.8
+210,Flavour Deli,6,Pizza & Italian,Standalone Restaurant,2023-12-05,0.212,3.9
+211,The Daily Kitchen,6,Bakery & Desserts,Standalone Restaurant,2025-05-04,0.219,3.4
+212,Zaika Corner,6,Burgers & American,Standalone Restaurant,2023-03-19,0.209,3.8
+213,Flavour Corner,6,North Indian,Standalone Restaurant,2023-08-23,0.218,4.0
+214,Corner Kart,6,Multi-cuisine,Standalone Restaurant,2025-01-31,0.245,3.9
+215,Flame & Fork,6,Multi-cuisine,Chain Outlet,2024-10-13,0.126,3.9
+216,Spice Diner,6,Biryani & Mughlai,Standalone Restaurant,2025-06-15,0.151,3.4
+217,Spice Kitchen,6,South Indian,Cloud Kitchen,2024-12-06,0.215,3.5
+218,Urban House,6,Cafe & Beverages,Standalone Restaurant,2023-03-08,0.167,3.8
+219,Corner Junction,6,Multi-cuisine,Cloud Kitchen,2024-08-18,0.183,4.6
+220,Wok & Roll Co.,6,South Indian,Chain Outlet,2023-10-06,0.167,4.0
+221,Local Hub,6,Momos & Tibetan,Standalone Restaurant,2023-06-18,0.205,3.8
+222,Local House,7,Cafe & Beverages,Cloud Kitchen,2025-08-01,0.239,4.4
+223,Corner Junction,7,Bakery & Desserts,Standalone Restaurant,2023-02-21,0.183,4.6
+224,Bite Society,7,Pizza & Italian,Chain Outlet,2023-08-06,0.15,3.8
+225,Royal Express,7,South Indian,Standalone Restaurant,2024-04-23,0.25,3.9
+226,Corner Express,7,Chinese,Cloud Kitchen,2023-10-10,0.264,3.9
+227,Fresh Point,7,Pizza & Italian,Cloud Kitchen,2023-11-30,0.243,4.2
+228,Spice Junction,7,South Indian,Standalone Restaurant,2024-06-21,0.209,4.2
+229,Tasty House,7,South Indian,Cloud Kitchen,2023-09-22,0.27,3.2
+230,Corner Deli,7,Burgers & American,Standalone Restaurant,2024-04-04,0.213,3.7
+231,Fresh Point,7,Chinese,Standalone Restaurant,2023-01-30,0.241,3.7
+232,The Combo Company,7,Momos & Tibetan,Chain Outlet,2025-02-05,0.124,3.6
+233,Grand Point,7,Burgers & American,Standalone Restaurant,2023-06-10,0.186,3.4
+234,Grand House,7,Bakery & Desserts,Cloud Kitchen,2023-07-10,0.213,4.0
+235,Tasty Bites,7,Rolls & Wraps,Standalone Restaurant,2023-08-05,0.174,3.1
+236,Golden Hub,7,North Indian,Standalone Restaurant,2025-06-20,0.221,4.0
+237,Grand Kart,7,Biryani & Mughlai,Cloud Kitchen,2024-09-08,0.246,4.4
+238,Grand Studio,7,Burgers & American,Standalone Restaurant,2025-06-05,0.153,3.9
+239,Bite Society,7,Bakery & Desserts,Chain Outlet,2025-08-31,0.123,3.4
+240,Golden Kitchen,7,Multi-cuisine,Cloud Kitchen,2025-07-27,0.238,4.2
+241,Golden House,7,Biryani & Mughlai,Standalone Restaurant,2023-02-25,0.245,4.3
+242,Urban Bites,7,Multi-cuisine,Standalone Restaurant,2023-03-22,0.153,4.0
+243,Fresh Deli,7,South Indian,Cloud Kitchen,2023-11-01,0.196,4.1
+244,Bite Society,8,Burgers & American,Chain Outlet,2025-08-26,0.17,3.6
+245,Flame & Fork,8,Cafe & Beverages,Chain Outlet,2022-08-19,0.135,4.0
+246,Flavour Kart,8,Multi-cuisine,Standalone Restaurant,2024-07-19,0.242,4.0
+247,Golden Kart,8,Pizza & Italian,Standalone Restaurant,2025-01-31,0.21,4.2
+248,The Combo Company,8,Bakery & Desserts,Chain Outlet,2023-12-07,0.137,3.7
+249,Corner Express,8,South Indian,Cloud Kitchen,2023-09-03,0.273,4.3
+250,Curry Culture,8,Momos & Tibetan,Chain Outlet,2024-07-27,0.159,3.8
+251,Grand Diner,8,North Indian,Cloud Kitchen,2024-04-07,0.236,4.2
+252,Royal Deli,8,North Indian,Standalone Restaurant,2022-08-07,0.157,3.0
+253,Urban Kart,8,Cafe & Beverages,Standalone Restaurant,2025-02-17,0.204,3.2
+254,The Daily Express,8,Multi-cuisine,Standalone Restaurant,2023-09-07,0.222,4.0
+255,The Daily Studio,8,Pizza & Italian,Standalone Restaurant,2025-02-05,0.24,3.4
+256,Royal House,8,Burgers & American,Cloud Kitchen,2024-12-16,0.206,4.5
+257,Corner Deli,8,Multi-cuisine,Cloud Kitchen,2023-02-12,0.238,4.0
+258,Fresh Kart,8,Biryani & Mughlai,Cloud Kitchen,2023-04-12,0.198,3.7
+259,The Daily Bites,8,Cafe & Beverages,Standalone Restaurant,2024-12-11,0.161,3.3
+260,Flame & Fork,8,Biryani & Mughlai,Chain Outlet,2025-08-05,0.123,4.1
+261,Corner Bites,8,Multi-cuisine,Standalone Restaurant,2025-06-12,0.202,4.4
+262,Fresh Kart,8,Rolls & Wraps,Standalone Restaurant,2024-03-09,0.24,4.1
+263,Local Corner,8,Cafe & Beverages,Cloud Kitchen,2022-06-16,0.253,4.1
+264,Tasty Diner,8,Chinese,Standalone Restaurant,2025-01-14,0.192,4.3
+265,Royal Deli,8,North Indian,Cloud Kitchen,2024-02-29,0.202,4.4
+266,Hungry Kart,8,Cafe & Beverages,Standalone Restaurant,2024-11-03,0.249,4.5
+267,Urban Junction,8,Pizza & Italian,Cloud Kitchen,2024-01-24,0.252,4.1
+268,Flavour Corner,8,Biryani & Mughlai,Cloud Kitchen,2023-04-15,0.24,4.6
+269,Zaika Kart,9,Multi-cuisine,Cloud Kitchen,2024-12-16,0.187,3.6
+270,Golden Point,9,Multi-cuisine,Standalone Restaurant,2025-08-28,0.209,3.9
+271,Royal Express,9,Cafe & Beverages,Standalone Restaurant,2025-05-20,0.249,4.2
+272,Flavour Express,9,Biryani & Mughlai,Standalone Restaurant,2023-06-19,0.168,4.7
+273,The Daily Diner,9,Bakery & Desserts,Standalone Restaurant,2023-06-12,0.192,3.0
+274,Flavour Express,9,Chinese,Cloud Kitchen,2023-03-22,0.204,3.7
+275,Zaika Express,9,Biryani & Mughlai,Standalone Restaurant,2024-11-25,0.229,4.0
+276,Urban Hub,9,Biryani & Mughlai,Standalone Restaurant,2023-07-17,0.173,4.3
+277,Golden House,9,Bakery & Desserts,Cloud Kitchen,2024-04-22,0.235,3.6
+278,Urban Bites,9,Biryani & Mughlai,Standalone Restaurant,2022-12-10,0.242,3.3
+279,Grand Corner,9,Burgers & American,Standalone Restaurant,2022-11-22,0.171,3.7
+280,Curry Culture,9,Burgers & American,Chain Outlet,2025-01-17,0.138,4.4
+281,Royal House,9,Pizza & Italian,Cloud Kitchen,2024-07-29,0.249,3.9
+282,Urban Kart,9,Bakery & Desserts,Standalone Restaurant,2022-12-01,0.236,3.9
+283,Flame & Fork,9,North Indian,Chain Outlet,2023-02-22,0.166,3.9
+284,Corner Corner,9,Bakery & Desserts,Cloud Kitchen,2023-07-18,0.187,3.4
+285,Tasty Deli,9,Bakery & Desserts,Cloud Kitchen,2025-01-22,0.277,3.2
+286,Corner Deli,9,South Indian,Standalone Restaurant,2023-06-13,0.214,3.6
+287,Grand Bites,9,South Indian,Cloud Kitchen,2023-07-03,0.219,3.4
+288,Urban Point,9,Multi-cuisine,Cloud Kitchen,2023-06-23,0.223,4.0
+289,Hungry Deli,9,Pizza & Italian,Cloud Kitchen,2022-09-29,0.207,4.1
+290,The Daily Point,9,Biryani & Mughlai,Standalone Restaurant,2024-05-16,0.173,3.5
+291,Tasty Deli,9,Biryani & Mughlai,Cloud Kitchen,2023-05-19,0.223,3.4
+292,The Daily Corner,9,Burgers & American,Cloud Kitchen,2023-11-11,0.276,3.8
+293,Golden Express,9,Multi-cuisine,Cloud Kitchen,2024-04-03,0.206,3.7
+294,Corner Corner,9,North Indian,Standalone Restaurant,2022-11-20,0.213,4.1
+295,Corner Hub,9,Pizza & Italian,Cloud Kitchen,2023-07-01,0.191,3.1
+296,Golden Diner,9,Momos & Tibetan,Standalone Restaurant,2023-08-15,0.165,4.7
+297,Flavour Junction,10,South Indian,Cloud Kitchen,2025-08-22,0.241,3.8
+298,Spice Route Express,10,North Indian,Chain Outlet,2024-02-16,0.167,4.3
+299,Urban Deli,10,North Indian,Cloud Kitchen,2025-02-18,0.205,3.9
+300,Flavour Studio,10,South Indian,Standalone Restaurant,2025-08-03,0.214,4.3
+301,Flavour Junction,10,Momos & Tibetan,Standalone Restaurant,2025-03-11,0.224,4.7
+302,The Daily Studio,10,Bakery & Desserts,Cloud Kitchen,2024-08-27,0.187,4.0
+303,Spice Corner,10,Rolls & Wraps,Cloud Kitchen,2024-01-03,0.254,3.4
+304,The Daily Junction,10,Chinese,Cloud Kitchen,2025-01-29,0.215,3.5
+305,Zaika Point,10,Pizza & Italian,Standalone Restaurant,2024-06-23,0.192,3.9
+306,Craveable Kitchens,10,Rolls & Wraps,Chain Outlet,2024-08-02,0.157,3.6
+307,Royal Kitchen,10,South Indian,Cloud Kitchen,2024-08-24,0.206,4.3
+308,Grand Studio,10,Biryani & Mughlai,Cloud Kitchen,2024-12-08,0.191,3.9
+309,Local Diner,10,South Indian,Standalone Restaurant,2024-05-07,0.243,3.7
+310,Hungry House,11,Cafe & Beverages,Standalone Restaurant,2025-05-08,0.243,3.4
+311,Spice Point,11,Chinese,Standalone Restaurant,2024-07-20,0.232,3.8
+312,Flavour Point,11,Pizza & Italian,Standalone Restaurant,2024-11-13,0.228,4.0
+313,Zaika Express,11,Multi-cuisine,Standalone Restaurant,2024-11-10,0.177,4.6
+314,Tasty Studio,11,Pizza & Italian,Cloud Kitchen,2025-06-26,0.231,4.0
+315,Local Corner,11,Burgers & American,Standalone Restaurant,2025-03-08,0.201,4.1
+316,Grand Kart,11,Momos & Tibetan,Standalone Restaurant,2024-07-26,0.193,3.2
+317,Flavour Kitchen,11,Cafe & Beverages,Cloud Kitchen,2024-12-06,0.268,3.6
+318,Curry Culture,11,South Indian,Chain Outlet,2025-07-06,0.153,3.7
+319,Local Studio,11,Momos & Tibetan,Standalone Restaurant,2024-05-25,0.186,4.0
+320,Fresh Express,11,Cafe & Beverages,Cloud Kitchen,2024-04-01,0.255,4.5
+321,Golden Kart,11,South Indian,Cloud Kitchen,2024-04-09,0.213,3.7
+322,Urban Tadka,11,Pizza & Italian,Chain Outlet,2024-07-30,0.143,3.6
+323,Flavour Express,11,Cafe & Beverages,Standalone Restaurant,2024-11-02,0.164,3.7
+324,The Daily Bites,11,North Indian,Cloud Kitchen,2025-08-18,0.231,3.7
+325,Fresh Bites,11,Pizza & Italian,Standalone Restaurant,2025-08-02,0.206,4.6
+326,Spice Junction,11,Chinese,Standalone Restaurant,2025-04-30,0.22,4.3
+327,Zaika Corner,11,Cafe & Beverages,Standalone Restaurant,2024-04-08,0.194,3.7
+328,Tasty Kitchen,11,South Indian,Standalone Restaurant,2025-07-09,0.224,3.5
+329,The Combo Company,11,Burgers & American,Chain Outlet,2024-08-28,0.145,4.4
+330,The Daily Kart,12,Multi-cuisine,Standalone Restaurant,2024-11-04,0.209,4.1
+331,Urban Junction,12,Cafe & Beverages,Cloud Kitchen,2024-11-21,0.182,3.7
+332,Golden Junction,12,Chinese,Standalone Restaurant,2024-09-10,0.193,4.2
+333,Wok & Roll Co.,12,Pizza & Italian,Chain Outlet,2024-09-24,0.146,4.0
+334,The Daily House,12,Momos & Tibetan,Standalone Restaurant,2024-12-13,0.228,4.0
+335,Zaika Deli,12,Bakery & Desserts,Cloud Kitchen,2025-08-05,0.194,4.2
+336,Wok & Roll Co.,12,Rolls & Wraps,Chain Outlet,2024-11-20,0.137,4.4
+337,The Daily Deli,12,Chinese,Cloud Kitchen,2025-05-03,0.205,4.3
+338,Grand Kart,12,Burgers & American,Standalone Restaurant,2025-06-03,0.235,3.6
+339,Fresh Studio,12,South Indian,Cloud Kitchen,2024-08-27,0.233,3.2
+340,Craveable Kitchens,12,South Indian,Chain Outlet,2025-04-11,0.153,3.5
+341,Golden Diner,12,Momos & Tibetan,Cloud Kitchen,2025-01-07,0.222,4.3
+342,The Combo Company,12,South Indian,Chain Outlet,2024-12-15,0.164,3.5
+343,Royal Junction,12,North Indian,Cloud Kitchen,2025-07-17,0.275,3.6
+344,Spice Point,12,North Indian,Standalone Restaurant,2024-10-06,0.173,3.8
+345,Hungry Bites,12,Multi-cuisine,Standalone Restaurant,2024-10-31,0.205,3.4
+346,Golden Corner,12,Cafe & Beverages,Standalone Restaurant,2024-08-08,0.216,4.1
+347,Urban Junction,12,Cafe & Beverages,Cloud Kitchen,2024-12-09,0.255,4.3
+348,Fresh Junction,12,Multi-cuisine,Cloud Kitchen,2025-02-14,0.259,3.6
+349,Golden Hub,12,Momos & Tibetan,Standalone Restaurant,2025-01-07,0.183,3.9

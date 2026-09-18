@@ -1,0 +1,20 @@
+CREATE TABLE fact_order (
+    order_id                        INT PRIMARY KEY,
+    customer_id                     INT NOT NULL REFERENCES dim_customer(customer_id),
+    restaurant_id                   INT NOT NULL REFERENCES dim_restaurant(restaurant_id),
+    date_id                         DATE NOT NULL REFERENCES dim_date(date_id),
+    order_hour                      INT NOT NULL,
+    order_channel                   VARCHAR(10) NOT NULL,
+    payment_method                  VARCHAR(10) NOT NULL,
+    payment_processing_fee          NUMERIC(6,2) NOT NULL,
+    promotion_id                    INT REFERENCES dim_promotion(promotion_id),
+    delivery_distance_km            NUMERIC(5,1) NOT NULL,
+    estimated_delivery_time_min     NUMERIC(6,1) NOT NULL,
+    actual_delivery_time_min        NUMERIC(6,1) NOT NULL,
+    delivery_cost                   NUMERIC(8,2) NOT NULL,
+    customer_delivery_fee           NUMERIC(8,2) NOT NULL,
+    platform_fee_charged            NUMERIC(6,2) NOT NULL,
+    order_status                    VARCHAR(15) NOT NULL,
+    cancellation_reason             VARCHAR(40),
+    refund_amount                   NUMERIC(8,2)   -- filled in later, after fact_order_item exists
+);

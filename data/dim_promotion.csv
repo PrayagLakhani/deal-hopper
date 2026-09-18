@@ -1,0 +1,151 @@
+promotion_id,promotion_name,promotion_type,discount_value,max_discount_cap,min_order_value,target_segment,funded_by,platform_funding_share_pct,start_date,end_date,planned_budget
+1,Flat ₹75 Off Loyalty Deal,Flat Amount Off,75.0,,224.0,High-Frequency,Platform Only,100.0,2024-03-21,2024-04-20,172700.0
+2,25% Off Monsoon Sale,Percentage Off,25.0,100.0,249.0,All Customers,Platform Only,100.0,2025-01-03,2025-01-24,101300.0
+3,Flat ₹125 Off Anniversary Deal,Flat Amount Off,125.0,,274.0,New Customers Only,Platform Only,100.0,2024-04-28,2024-05-12,108000.0
+4,20% Off Payday Sale,Percentage Off,20.0,200.0,0.0,New Customers Only,Platform Only,100.0,2024-07-09,2024-07-30,182600.0
+5,Buy 1 Get 1 Late Night Fest,BOGO,100.0,250.0,249.0,Lapsed/Win-back,Platform Only,100.0,2025-02-03,2025-02-17,112000.0
+6,40% Off Monsoon Sale,Percentage Off,40.0,100.0,249.0,All Customers,Platform Only,100.0,2025-03-23,2025-03-30,61700.0
+7,Free Delivery Winback Days,Free Delivery,100.0,,99.0,High-Frequency,Platform Only,100.0,2024-11-25,2025-01-09,147200.0
+8,15% Off Winback Sale,Percentage Off,15.0,75.0,249.0,All Customers,Platform Only,100.0,2024-04-22,2024-05-06,65200.0
+9,10% Off Winback Sale,Percentage Off,10.0,150.0,199.0,All Customers,Platform Only,100.0,2025-08-03,2025-08-10,50900.0
+10,Free Delivery Late Night Days,Free Delivery,100.0,,149.0,New Customers Only,Co-funded with Restaurant,53.5,2024-04-10,2024-05-25,160800.0
+11,Flat ₹50 Off Summer Deal,Flat Amount Off,50.0,,99.0,Lapsed/Win-back,Platform Only,100.0,2025-06-05,2025-06-26,160100.0
+12,Flat ₹50 Off Summer Deal,Flat Amount Off,50.0,,99.0,New Customers Only,Platform Only,100.0,2025-06-04,2025-06-18,118200.0
+13,20% Off Loyalty Sale,Percentage Off,20.0,125.0,249.0,New Customers Only,Co-funded with Restaurant,64.2,2024-04-05,2024-05-05,204000.0
+14,₹75 Cashback Anniversary Offer,Cashback,75.0,,174.0,Lapsed/Win-back,Platform Only,100.0,2025-01-25,2025-02-01,25600.0
+15,40% Off Loyalty Sale,Percentage Off,40.0,125.0,0.0,New Customers Only,Platform Only,100.0,2024-11-14,2024-12-14,214600.0
+16,25% Off Midweek Sale,Percentage Off,25.0,75.0,0.0,All Customers,Platform Only,100.0,2025-06-15,2025-06-22,31400.0
+17,Free Delivery New User Days,Free Delivery,100.0,,0.0,Lapsed/Win-back,Co-funded with Restaurant,52.3,2024-05-20,2024-05-27,22400.0
+18,15% Off Late Night Sale,Percentage Off,15.0,150.0,199.0,New Customers Only,Platform Only,100.0,2024-04-22,2024-05-13,93500.0
+19,₹75 Cashback New User Offer,Cashback,75.0,,174.0,New Customers Only,Platform Only,100.0,2025-06-13,2025-08-12,363000.0
+20,Free Delivery Anniversary Days,Free Delivery,100.0,,149.0,High-Frequency,Co-funded with Restaurant,50.5,2025-04-07,2025-04-21,50100.0
+21,Buy 1 Get 1 Monsoon Fest,BOGO,100.0,250.0,249.0,All Customers,Co-funded with Restaurant,47.7,2025-06-16,2025-07-07,146200.0
+22,₹100 Cashback Weekend Offer,Cashback,100.0,,249.0,New Customers Only,Co-funded with Restaurant,67.0,2024-03-02,2024-03-23,142800.0
+23,40% Off Festive Sale,Percentage Off,40.0,75.0,249.0,All Customers,Platform Only,100.0,2024-07-09,2024-08-08,119100.0
+24,₹75 Cashback Midweek Offer,Cashback,75.0,,174.0,New Customers Only,Platform Only,100.0,2025-07-23,2025-07-30,27800.0
+25,Flat ₹50 Off Festive Deal,Flat Amount Off,50.0,,149.0,Lapsed/Win-back,Platform Only,100.0,2024-08-08,2024-08-29,157100.0
+26,Free Delivery Late Night Days,Free Delivery,100.0,,149.0,Lapsed/Win-back,Platform Only,100.0,2024-04-02,2024-04-23,96400.0
+27,20% Off Winback Sale,Percentage Off,20.0,125.0,149.0,High-Frequency,Platform Only,100.0,2025-05-12,2025-05-26,96200.0
+28,Free Delivery Summer Days,Free Delivery,100.0,,0.0,High-Frequency,Platform Only,100.0,2025-07-29,2025-08-05,62800.0
+29,Flat ₹150 Off Midweek Deal,Flat Amount Off,150.0,,199.0,All Customers,Platform Only,100.0,2025-03-15,2025-04-29,396000.0
+30,Buy 1 Get 1 Summer Fest,BOGO,100.0,200.0,0.0,High-Frequency,Platform Only,100.0,2024-08-08,2024-08-22,112900.0
+31,Buy 1 Get 1 Anniversary Fest,BOGO,100.0,200.0,199.0,All Customers,Co-funded with Restaurant,60.9,2024-08-02,2024-08-09,50500.0
+32,Flat ₹75 Off Late Night Deal,Flat Amount Off,75.0,,224.0,All Customers,Platform Only,100.0,2025-04-12,2025-05-12,233700.0
+33,Free Delivery Late Night Days,Free Delivery,100.0,,99.0,Lapsed/Win-back,Platform Only,100.0,2025-06-14,2025-07-14,194100.0
+34,15% Off Flash Sale,Percentage Off,15.0,100.0,0.0,New Customers Only,Platform Only,100.0,2024-07-03,2024-07-24,166600.0
+35,Flat ₹125 Off Late Night Deal,Flat Amount Off,125.0,,174.0,All Customers,Platform Only,100.0,2024-04-22,2024-05-13,169100.0
+36,25% Off Monsoon Sale,Percentage Off,25.0,100.0,199.0,New Customers Only,Co-funded with Restaurant,48.1,2024-11-24,2024-12-15,118300.0
+37,25% Off Midweek Sale,Percentage Off,25.0,200.0,0.0,All Customers,Platform Only,100.0,2024-12-04,2025-02-02,236300.0
+38,10% Off Payday Sale,Percentage Off,10.0,200.0,299.0,New Customers Only,Platform Only,100.0,2025-07-01,2025-07-31,165500.0
+39,30% Off Late Night Sale,Percentage Off,30.0,75.0,249.0,All Customers,Platform Only,100.0,2024-12-10,2025-01-09,93100.0
+40,Free Delivery Payday Days,Free Delivery,100.0,,149.0,Lapsed/Win-back,Platform Only,100.0,2024-11-09,2024-11-23,121700.0
+41,₹100 Cashback Weekend Offer,Cashback,100.0,,199.0,All Customers,Platform Only,100.0,2025-05-16,2025-05-23,46900.0
+42,Buy 1 Get 1 New User Fest,BOGO,100.0,200.0,249.0,High-Frequency,Platform Only,100.0,2024-08-07,2024-09-21,258700.0
+43,Flat ₹75 Off Winback Deal,Flat Amount Off,75.0,,224.0,High-Frequency,Platform Only,100.0,2025-04-21,2025-05-05,47800.0
+44,10% Off Loyalty Sale,Percentage Off,10.0,100.0,299.0,All Customers,Co-funded with Restaurant,40.7,2024-04-04,2024-04-11,55200.0
+45,30% Off New User Sale,Percentage Off,30.0,150.0,0.0,All Customers,Co-funded with Restaurant,48.5,2025-07-06,2025-07-27,85400.0
+46,Free Delivery Monsoon Days,Free Delivery,100.0,,0.0,Lapsed/Win-back,Co-funded with Restaurant,50.2,2024-04-05,2024-06-04,515100.0
+47,₹30 Cashback Summer Offer,Cashback,30.0,,179.0,New Customers Only,Co-funded with Restaurant,55.2,2024-10-03,2024-11-02,238800.0
+48,20% Off Midweek Sale,Percentage Off,20.0,150.0,0.0,High-Frequency,Platform Only,100.0,2025-03-31,2025-04-14,121800.0
+49,Buy 1 Get 1 Summer Fest,BOGO,100.0,150.0,249.0,New Customers Only,Platform Only,100.0,2024-05-08,2024-05-29,182200.0
+50,Free Delivery Loyalty Days,Free Delivery,100.0,,99.0,All Customers,Platform Only,100.0,2024-09-02,2024-10-17,254200.0
+51,₹50 Cashback Anniversary Offer,Cashback,50.0,,149.0,All Customers,Platform Only,100.0,2024-03-09,2024-03-16,24500.0
+52,Free Delivery Payday Days,Free Delivery,100.0,,0.0,All Customers,Platform Only,100.0,2024-09-10,2024-10-10,267600.0
+53,Flat ₹50 Off Loyalty Deal,Flat Amount Off,50.0,,99.0,All Customers,Co-funded with Restaurant,51.3,2025-07-24,2025-08-23,105000.0
+54,Free Delivery Loyalty Days,Free Delivery,100.0,,99.0,New Customers Only,Platform Only,100.0,2025-08-13,2025-08-27,43000.0
+55,Flat ₹50 Off Loyalty Deal,Flat Amount Off,50.0,,199.0,All Customers,Platform Only,100.0,2025-02-24,2025-03-03,61400.0
+56,Flat ₹75 Off Payday Deal,Flat Amount Off,75.0,,124.0,All Customers,Co-funded with Restaurant,41.3,2025-04-26,2025-06-10,375600.0
+57,Flat ₹125 Off Summer Deal,Flat Amount Off,125.0,,174.0,High-Frequency,Platform Only,100.0,2024-10-13,2024-10-20,47400.0
+58,Free Delivery Loyalty Days,Free Delivery,100.0,,0.0,New Customers Only,Co-funded with Restaurant,68.8,2024-11-14,2024-12-05,70300.0
+59,Flat ₹125 Off Late Night Deal,Flat Amount Off,125.0,,224.0,All Customers,Platform Only,100.0,2024-06-30,2024-07-14,61300.0
+60,10% Off Weekend Sale,Percentage Off,10.0,75.0,299.0,All Customers,Co-funded with Restaurant,60.5,2025-07-15,2025-07-29,55700.0
+61,Buy 1 Get 1 Payday Fest,BOGO,100.0,250.0,0.0,Lapsed/Win-back,Platform Only,100.0,2024-11-11,2024-12-26,386800.0
+62,₹50 Cashback Weekend Offer,Cashback,50.0,,249.0,All Customers,Platform Only,100.0,2025-03-09,2025-03-16,46000.0
+63,Flat ₹75 Off Weekend Deal,Flat Amount Off,75.0,,124.0,High-Frequency,Platform Only,100.0,2025-06-04,2025-07-04,139200.0
+64,30% Off Loyalty Sale,Percentage Off,30.0,200.0,299.0,High-Frequency,Co-funded with Restaurant,51.3,2025-05-11,2025-06-10,133400.0
+65,10% Off Weekend Sale,Percentage Off,10.0,100.0,249.0,All Customers,Platform Only,100.0,2025-05-20,2025-06-03,43900.0
+66,Flat ₹50 Off Late Night Deal,Flat Amount Off,50.0,,149.0,New Customers Only,Co-funded with Restaurant,42.7,2024-12-31,2025-01-30,232500.0
+67,Flat ₹75 Off Payday Deal,Flat Amount Off,75.0,,224.0,New Customers Only,Platform Only,100.0,2024-10-15,2024-10-29,53500.0
+68,20% Off New User Sale,Percentage Off,20.0,100.0,249.0,All Customers,Platform Only,100.0,2025-01-29,2025-02-19,119800.0
+69,Buy 1 Get 1 Payday Fest,BOGO,100.0,150.0,199.0,All Customers,Co-funded with Restaurant,54.8,2024-05-20,2024-06-10,95500.0
+70,Flat ₹100 Off New User Deal,Flat Amount Off,100.0,,249.0,High-Frequency,Platform Only,100.0,2024-09-21,2024-10-05,52800.0
+71,25% Off Festive Sale,Percentage Off,25.0,75.0,199.0,All Customers,Co-funded with Restaurant,55.5,2025-08-02,2025-08-09,61900.0
+72,Free Delivery Late Night Days,Free Delivery,100.0,,99.0,All Customers,Platform Only,100.0,2025-06-09,2025-07-09,106000.0
+73,30% Off Anniversary Sale,Percentage Off,30.0,125.0,0.0,New Customers Only,Platform Only,100.0,2024-05-17,2024-05-24,41200.0
+74,Free Delivery Weekend Days,Free Delivery,100.0,,99.0,New Customers Only,Co-funded with Restaurant,42.5,2024-04-17,2024-04-24,46100.0
+75,Buy 1 Get 1 Anniversary Fest,BOGO,100.0,250.0,199.0,New Customers Only,Platform Only,100.0,2024-03-14,2024-04-28,336800.0
+76,30% Off Late Night Sale,Percentage Off,30.0,100.0,149.0,All Customers,Platform Only,100.0,2025-02-26,2025-03-28,161500.0
+77,10% Off Midweek Sale,Percentage Off,10.0,100.0,249.0,Lapsed/Win-back,Platform Only,100.0,2024-04-08,2024-04-15,35400.0
+78,Flat ₹75 Off Festive Deal,Flat Amount Off,75.0,,224.0,All Customers,Co-funded with Restaurant,52.9,2024-07-24,2024-08-14,79100.0
+79,20% Off Winback Sale,Percentage Off,20.0,200.0,299.0,All Customers,Co-funded with Restaurant,40.2,2025-05-17,2025-06-07,91400.0
+80,Flat ₹50 Off Winback Deal,Flat Amount Off,50.0,,199.0,New Customers Only,Platform Only,100.0,2025-05-20,2025-07-04,139900.0
+81,Free Delivery Late Night Days,Free Delivery,100.0,,149.0,High-Frequency,Co-funded with Restaurant,64.5,2025-06-11,2025-07-26,204600.0
+82,15% Off New User Sale,Percentage Off,15.0,125.0,299.0,Lapsed/Win-back,Co-funded with Restaurant,45.6,2025-01-29,2025-03-15,222400.0
+83,Flat ₹150 Off Anniversary Deal,Flat Amount Off,150.0,,249.0,New Customers Only,Platform Only,100.0,2024-03-01,2024-03-08,41200.0
+84,Flat ₹75 Off Payday Deal,Flat Amount Off,75.0,,174.0,All Customers,Platform Only,100.0,2024-03-10,2024-03-24,110000.0
+85,30% Off Weekend Sale,Percentage Off,30.0,150.0,249.0,Lapsed/Win-back,Platform Only,100.0,2025-04-23,2025-05-23,257900.0
+86,Buy 1 Get 1 Winback Fest,BOGO,100.0,200.0,0.0,All Customers,Platform Only,100.0,2025-07-26,2025-08-09,108800.0
+87,20% Off Summer Sale,Percentage Off,20.0,100.0,249.0,All Customers,Platform Only,100.0,2024-03-05,2024-03-12,45700.0
+88,Free Delivery Weekend Days,Free Delivery,100.0,,149.0,New Customers Only,Platform Only,100.0,2025-04-26,2025-05-26,193900.0
+89,Flat ₹100 Off Summer Deal,Flat Amount Off,100.0,,199.0,All Customers,Co-funded with Restaurant,58.8,2024-06-12,2024-07-03,105200.0
+90,20% Off Loyalty Sale,Percentage Off,20.0,150.0,299.0,Lapsed/Win-back,Platform Only,100.0,2025-06-21,2025-07-12,102300.0
+91,20% Off Payday Sale,Percentage Off,20.0,100.0,0.0,Lapsed/Win-back,Platform Only,100.0,2025-08-04,2025-08-11,43500.0
+92,Flat ₹150 Off Winback Deal,Flat Amount Off,150.0,,199.0,New Customers Only,Platform Only,100.0,2024-03-15,2024-04-05,154000.0
+93,Free Delivery Anniversary Days,Free Delivery,100.0,,149.0,New Customers Only,Platform Only,100.0,2024-12-17,2025-01-07,167200.0
+94,Buy 1 Get 1 Anniversary Fest,BOGO,100.0,200.0,249.0,All Customers,Platform Only,100.0,2024-03-23,2024-03-30,45600.0
+95,Flat ₹125 Off Late Night Deal,Flat Amount Off,125.0,,174.0,New Customers Only,Co-funded with Restaurant,61.2,2025-06-03,2025-06-10,27400.0
+96,Flat ₹50 Off Winback Deal,Flat Amount Off,50.0,,149.0,New Customers Only,Co-funded with Restaurant,43.7,2024-03-29,2024-04-12,61800.0
+97,20% Off Flash Sale,Percentage Off,20.0,200.0,0.0,All Customers,Co-funded with Restaurant,46.2,2024-03-01,2024-03-31,231800.0
+98,Free Delivery Flash Days,Free Delivery,100.0,,99.0,All Customers,Platform Only,100.0,2024-05-14,2024-05-28,82400.0
+99,Buy 1 Get 1 Flash Fest,BOGO,100.0,150.0,249.0,New Customers Only,Platform Only,100.0,2024-08-26,2024-09-02,22400.0
+100,30% Off Monsoon Sale,Percentage Off,30.0,75.0,0.0,Lapsed/Win-back,Co-funded with Restaurant,44.5,2024-08-03,2024-08-17,76800.0
+101,20% Off Loyalty Sale,Percentage Off,20.0,125.0,199.0,High-Frequency,Platform Only,100.0,2024-07-19,2024-08-09,122000.0
+102,Free Delivery Monsoon Days,Free Delivery,100.0,,0.0,All Customers,Co-funded with Restaurant,53.6,2024-03-19,2024-04-18,184400.0
+103,Flat ₹100 Off Loyalty Deal,Flat Amount Off,100.0,,199.0,New Customers Only,Platform Only,100.0,2024-11-19,2024-12-10,144100.0
+104,Flat ₹150 Off Loyalty Deal,Flat Amount Off,150.0,,199.0,All Customers,Platform Only,100.0,2024-08-25,2024-09-01,31700.0
+105,20% Off Payday Sale,Percentage Off,20.0,125.0,0.0,New Customers Only,Platform Only,100.0,2024-10-25,2024-11-15,153800.0
+106,₹100 Cashback Festive Offer,Cashback,100.0,,199.0,High-Frequency,Platform Only,100.0,2025-07-04,2025-07-25,114200.0
+107,20% Off Payday Sale,Percentage Off,20.0,200.0,199.0,All Customers,Platform Only,100.0,2024-07-29,2024-08-19,116100.0
+108,₹75 Cashback Summer Offer,Cashback,75.0,,274.0,Lapsed/Win-back,Platform Only,100.0,2025-03-21,2025-04-04,94400.0
+109,Flat ₹125 Off Anniversary Deal,Flat Amount Off,125.0,,174.0,New Customers Only,Co-funded with Restaurant,54.6,2025-07-13,2025-07-27,117100.0
+110,Free Delivery Midweek Days,Free Delivery,100.0,,99.0,New Customers Only,Platform Only,100.0,2025-08-08,2025-08-15,31800.0
+111,30% Off Monsoon Sale,Percentage Off,30.0,125.0,149.0,Lapsed/Win-back,Platform Only,100.0,2025-05-16,2025-07-15,473400.0
+112,Flat ₹150 Off Late Night Deal,Flat Amount Off,150.0,,249.0,All Customers,Platform Only,100.0,2025-03-13,2025-03-27,64100.0
+113,30% Off Anniversary Sale,Percentage Off,30.0,75.0,149.0,Lapsed/Win-back,Platform Only,100.0,2025-05-29,2025-06-12,106800.0
+114,Flat ₹150 Off Summer Deal,Flat Amount Off,150.0,,299.0,All Customers,Platform Only,100.0,2024-09-09,2024-11-08,320100.0
+115,15% Off Flash Sale,Percentage Off,15.0,200.0,0.0,All Customers,Platform Only,100.0,2024-10-13,2024-11-12,187200.0
+116,15% Off New User Sale,Percentage Off,15.0,75.0,149.0,Lapsed/Win-back,Platform Only,100.0,2025-07-20,2025-08-19,152000.0
+117,Flat ₹100 Off Midweek Deal,Flat Amount Off,100.0,,249.0,New Customers Only,Platform Only,100.0,2024-04-11,2024-05-11,90400.0
+118,Buy 1 Get 1 New User Fest,BOGO,100.0,250.0,0.0,All Customers,Platform Only,100.0,2024-04-13,2024-04-20,60900.0
+119,Flat ₹150 Off Summer Deal,Flat Amount Off,150.0,,199.0,All Customers,Platform Only,100.0,2024-10-02,2024-10-23,150200.0
+120,₹75 Cashback Anniversary Offer,Cashback,75.0,,224.0,All Customers,Platform Only,100.0,2025-07-02,2025-07-16,125900.0
+121,Flat ₹50 Off Payday Deal,Flat Amount Off,50.0,,199.0,New Customers Only,Co-funded with Restaurant,69.1,2025-01-29,2025-02-12,121300.0
+122,Flat ₹75 Off New User Deal,Flat Amount Off,75.0,,224.0,High-Frequency,Platform Only,100.0,2025-04-06,2025-05-06,197300.0
+123,15% Off Winback Sale,Percentage Off,15.0,150.0,0.0,All Customers,Platform Only,100.0,2024-08-18,2024-08-25,48800.0
+124,Free Delivery Monsoon Days,Free Delivery,100.0,,149.0,New Customers Only,Platform Only,100.0,2024-06-16,2024-06-30,125200.0
+125,30% Off Festive Sale,Percentage Off,30.0,75.0,299.0,All Customers,Platform Only,100.0,2024-04-08,2024-04-22,82300.0
+126,Flat ₹150 Off Festive Deal,Flat Amount Off,150.0,,199.0,All Customers,Platform Only,100.0,2025-02-22,2025-03-08,51300.0
+127,Flat ₹50 Off Midweek Deal,Flat Amount Off,50.0,,99.0,All Customers,Co-funded with Restaurant,52.8,2024-12-18,2025-01-01,74300.0
+128,Free Delivery Payday Days,Free Delivery,100.0,,149.0,All Customers,Platform Only,100.0,2024-04-30,2024-06-14,400200.0
+129,₹75 Cashback Midweek Offer,Cashback,75.0,,274.0,New Customers Only,Platform Only,100.0,2024-10-12,2024-11-26,361200.0
+130,10% Off Monsoon Sale,Percentage Off,10.0,100.0,0.0,Lapsed/Win-back,Platform Only,100.0,2024-06-15,2024-06-22,53700.0
+131,Flat ₹100 Off Midweek Deal,Flat Amount Off,100.0,,199.0,All Customers,Platform Only,100.0,2024-08-24,2024-10-23,273700.0
+132,Flat ₹150 Off Summer Deal,Flat Amount Off,150.0,,199.0,New Customers Only,Platform Only,100.0,2024-03-03,2024-05-02,393500.0
+133,Flat ₹125 Off New User Deal,Flat Amount Off,125.0,,174.0,All Customers,Co-funded with Restaurant,68.7,2025-01-17,2025-03-03,367800.0
+134,₹100 Cashback Winback Offer,Cashback,100.0,,299.0,Lapsed/Win-back,Platform Only,100.0,2024-10-12,2024-11-02,150700.0
+135,30% Off Late Night Sale,Percentage Off,30.0,200.0,0.0,New Customers Only,Platform Only,100.0,2024-08-23,2024-10-22,497800.0
+136,Flat ₹100 Off Monsoon Deal,Flat Amount Off,100.0,,149.0,High-Frequency,Platform Only,100.0,2024-04-09,2024-04-30,173700.0
+137,Free Delivery Midweek Days,Free Delivery,100.0,,0.0,Lapsed/Win-back,Co-funded with Restaurant,60.9,2024-04-28,2024-06-12,318600.0
+138,Free Delivery Loyalty Days,Free Delivery,100.0,,99.0,Lapsed/Win-back,Platform Only,100.0,2024-03-31,2024-04-07,35100.0
+139,Free Delivery Monsoon Days,Free Delivery,100.0,,0.0,All Customers,Platform Only,100.0,2024-12-20,2025-01-19,266600.0
+140,Free Delivery Summer Days,Free Delivery,100.0,,99.0,All Customers,Platform Only,100.0,2025-02-28,2025-03-21,65300.0
+141,Flat ₹150 Off Payday Deal,Flat Amount Off,150.0,,249.0,Lapsed/Win-back,Co-funded with Restaurant,60.6,2025-01-29,2025-02-12,47700.0
+142,20% Off Anniversary Sale,Percentage Off,20.0,100.0,149.0,Lapsed/Win-back,Co-funded with Restaurant,60.3,2024-03-22,2024-03-29,39700.0
+143,Free Delivery New User Days,Free Delivery,100.0,,0.0,New Customers Only,Platform Only,100.0,2024-03-29,2024-04-12,83000.0
+144,Free Delivery Monsoon Days,Free Delivery,100.0,,0.0,Lapsed/Win-back,Co-funded with Restaurant,43.1,2025-05-04,2025-05-18,113800.0
+145,Flat ₹100 Off Festive Deal,Flat Amount Off,100.0,,249.0,Lapsed/Win-back,Co-funded with Restaurant,68.9,2024-07-08,2024-07-22,44600.0
+146,Free Delivery Flash Days,Free Delivery,100.0,,149.0,High-Frequency,Platform Only,100.0,2024-05-23,2024-07-07,400700.0
+147,Flat ₹50 Off Weekend Deal,Flat Amount Off,50.0,,149.0,High-Frequency,Co-funded with Restaurant,54.2,2024-08-10,2024-08-17,61700.0
+148,25% Off Monsoon Sale,Percentage Off,25.0,125.0,299.0,High-Frequency,Platform Only,100.0,2024-03-27,2024-04-26,95900.0
+149,Buy 1 Get 1 Loyalty Fest,BOGO,100.0,150.0,199.0,New Customers Only,Platform Only,100.0,2024-07-31,2024-08-30,167500.0
+150,15% Off Payday Sale,Percentage Off,15.0,125.0,299.0,New Customers Only,Platform Only,100.0,2025-07-14,2025-07-21,40500.0

@@ -1,0 +1,217 @@
+=====================================================================
+DEAL HOPPER — DAX MEASURES LIBRARY (Stage 9)
+=====================================================================
+Copy each measure below into Power BI one at a time (New Measure).
+Organized so later measures can reference earlier ones — build them
+roughly in this order.
+
+All measures default to "Delivered" orders only for GMV/revenue/cost,
+matching the same order-status logic we used in vw_order_economics
+(Cancelled = 0 contribution, Refunded = negative contribution from
+sunk delivery/payment costs only).
+
+
+---------------------------------------------------------------------
+SECTION 1: VOLUME MEASURES
+---------------------------------------------------------------------
+
+Total Orders =
+DISTINCTCOUNT ( fact_order[order_id] )
+
+Delivered Orders =
+CALCULATE ( [Total Orders], fact_order[order_status] = "Delivered" )
+
+Cancelled Orders =
+CALCULATE ( [Total Orders], fact_order[order_status] = "Cancelled" )
+
+Refunded Orders =
+CALCULATE ( [Total Orders], fact_order[order_status] = "Refunded" )
+
+Cancellation Rate % =
+DIVIDE ( [Cancelled Orders], [Total Orders] ) * 100
+
+Refund Rate % =
+DIVIDE ( [Refunded Orders], [Total Orders] ) * 100
+
+
+---------------------------------------------------------------------
+SECTION 2: SALES / GMV MEASURES
+---------------------------------------------------------------------
+-- Note: Gross Item Value must be calculated at fact_order_item grain,
+-- filtered to Delivered orders via the fact_order -> fact_order_item
+-- relationship (this is why verifying that relationship in Step 2 of
+-- the setup guide matters so much).
+
+Gross Item Value =
+CALCULATE (
+    SUMX ( fact_order_item, fact_order_item[item_price] * fact_order_item[quantity] ),
+    fact_order[order_status] = "Delivered"
+)
+
+Average Order Value =
+DIVIDE ( [Gross Item Value], [Delivered Orders] )
+
+Units Sold =
+CALCULATE (
+    SUM ( fact_order_item[quantity] ),
+    fact_order[order_status] = "Delivered"
+)
+
+
+---------------------------------------------------------------------
+SECTION 3: DISCOUNT MEASURES
+---------------------------------------------------------------------
+
+Total Discount =
+CALCULATE (
+    SUM ( fact_order_item[item_discount_allocated] ),
+    fact_order[order_status] = "Delivered"
+)
+
+Discount % of GMV =
+DIVIDE ( [Total Discount], [Gross Item Value] ) * 100
+
+-- Platform-borne discount applies the promotion's funding split
+-- (100% if platform-only, less if co-funded with the restaurant).
+-- COALESCE-equivalent: if there's no related promotion, treat share as 100.
+Platform Borne Discount =
+CALCULATE (
+    SUMX (
+        fact_order_item,
+        fact_order_item[item_discount_allocated]
+            * DIVIDE ( COALESCE ( RELATED ( dim_promotion[platform_funding_share_pct] ), 100 ), 100 )
+    ),
+    fact_order[order_status] = "Delivered"
+)
+
+Orders With Promotion =
+CALCULATE ( [Delivered Orders], NOT ISBLANK ( fact_order[promotion_id] ) )
+
+Promo Usage Rate % =
+DIVIDE ( [Orders With Promotion], [Delivered Orders] ) * 100
+
+
+---------------------------------------------------------------------
+SECTION 4: REVENUE COMPONENTS (Platform side)
+---------------------------------------------------------------------
+
+-- Restaurant commission is earned on the GROSS price (per our Stage 6
+-- design decision), regardless of any discount applied.
+Restaurant Commission Revenue =
+CALCULATE (
+    SUMX (
+        fact_order_item,
+        fact_order_item[item_price] * fact_order_item[quantity] * RELATED ( dim_restaurant[commission_rate] )
+    ),
+    fact_order[order_status] = "Delivered"
+)
+
+Customer Delivery Fee Revenue =
+CALCULATE ( SUM ( fact_order[customer_delivery_fee] ), fact_order[order_status] = "Delivered" )
+
+Platform Fee Revenue =
+CALCULATE ( SUM ( fact_order[platform_fee_charged] ), fact_order[order_status] = "Delivered" )
+
+Total Platform Revenue =
+[Restaurant Commission Revenue] + [Customer Delivery Fee Revenue] + [Platform Fee Revenue]
+
+
+---------------------------------------------------------------------
+SECTION 5: COST COMPONENTS (Platform side)
+---------------------------------------------------------------------
+
+Delivery Cost =
+CALCULATE ( SUM ( fact_order[delivery_cost] ), fact_order[order_status] = "Delivered" )
+
+Payment Processing Fee =
+CALCULATE ( SUM ( fact_order[payment_processing_fee] ), fact_order[order_status] = "Delivered" )
+
+Total Platform Cost =
+[Platform Borne Discount] + [Delivery Cost] + [Payment Processing Fee]
+
+
+---------------------------------------------------------------------
+SECTION 6: CONTRIBUTION MARGIN (the core Margin Drain metric)
+---------------------------------------------------------------------
+
+Contribution Margin (Delivered) =
+[Total Platform Revenue] - [Total Platform Cost]
+
+-- Refunded orders: the platform already refunded all revenue to the
+-- customer but keeps the already-incurred delivery + payment costs.
+-- This mirrors the CASE WHEN logic in vw_order_economics exactly.
+Refund Drain =
+CALCULATE (
+    ( SUM ( fact_order[delivery_cost] ) + SUM ( fact_order[payment_processing_fee] ) ) * -1,
+    fact_order[order_status] = "Refunded"
+)
+
+-- Cancelled orders contribute 0 by design (no real transaction completed),
+-- so no separate term is needed for them.
+Total Contribution Margin =
+[Contribution Margin (Delivered)] + [Refund Drain]
+
+Contribution Margin % =
+DIVIDE ( [Total Contribution Margin], [Gross Item Value] ) * 100
+
+
+---------------------------------------------------------------------
+SECTION 7: CUSTOMER METRICS
+---------------------------------------------------------------------
+
+Active Customers =
+DISTINCTCOUNT ( fact_order[customer_id] )
+
+Contribution per Order =
+DIVIDE ( [Total Contribution Margin], [Delivered Orders] )
+
+Contribution per Customer =
+DIVIDE ( [Total Contribution Margin], [Active Customers] )
+
+
+---------------------------------------------------------------------
+SECTION 8: OPERATIONS / DELIVERY
+---------------------------------------------------------------------
+
+Average Delivery Distance =
+AVERAGE ( fact_order[delivery_distance_km] )
+
+Average Delivery Delay (min) =
+AVERAGEX (
+    fact_order,
+    fact_order[actual_delivery_time_min] - fact_order[estimated_delivery_time_min]
+)
+
+Delayed Orders (30%+) =
+CALCULATE (
+    [Total Orders],
+    FILTER (
+        fact_order,
+        fact_order[actual_delivery_time_min] > fact_order[estimated_delivery_time_min] * 1.3
+    )
+)
+
+
+=====================================================================
+VALIDATION CHECKLIST (cross-check against Stage 6/7 SQL/Python numbers)
+=====================================================================
+Total Orders (all statuses)  191,699
+Delivered Orders             172,282
+Gross Item Value             ~Rs 8.76 crore (87,611,447)
+Total Discount (Delivered)   ~Rs 32.28 lakh (3,227,839)
+Total Contribution Margin    ~Rs 1.29 crore (12,876,481)
+Contribution Margin %        ~14.70%
+
+Note: Total Discount filters to Delivered orders only, matching every other
+revenue/cost measure here. An UNFILTERED SUM(fact_order_item[item_discount_allocated])
+across all order statuses gives a different number (~Rs 35.90 lakh) since
+Cancelled/Refunded orders also carry allocated discounts on their line items
+even though those orders were never really revenue. Don't be surprised if
+you see that larger number somewhere else — it's not wrong, it's just a
+different (less useful) scope than what [Total Discount] measures.
+
+If any of these are off by more than rounding, check:
+  1. The fact_order -> fact_order_item relationship (Step 2) — this is
+     the one Power BI is most likely to have missed on auto-detect.
+  2. That Restaurant Commission Revenue and Platform Borne Discount are
+     both using RELATED() correctly through the relationship chain.
