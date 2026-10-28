@@ -43,6 +43,30 @@ Full analysis, charts, and SQL underlying every finding: see [`python_eda/output
 
 ---
 
+
+
+## Power BI Dashboards
+
+### 1. Overall Business Analytics
+
+Overview of order volume, gross item value, contribution margin, monthly trends, and order outcomes.
+
+![Overall Business Analytics](screenshots/overall-analytics.png)
+
+### 2. Promotion Margin Drain Analysis
+
+Analyzes promotion profitability, highlights the best and worst promotions, and compares margin drain scores across promotion types.
+
+![Promotion Margin Drain Analysis](screenshots/promotion-analysis.png)
+
+### 3. Customer Segmentation & Discount Dependency
+
+Explores customer segments, promotion usage behavior, average contribution per order, and customer value.
+
+![Customer Segmentation Dashboard](screenshots/customer-analysis.png)
+
+
+
 ## Tech Stack
 
 | Layer | Tools |
